@@ -1,0 +1,17 @@
+title: SeatShare
+email: contact@myseatshare.com
+description: >
+  SeatShare is the easiest way to manage your shared pool of tickets for a
+  sports team or performing arts venue.
+baseurl: ""
+url: "https://www.myseatshare.com"
+twitter_username: myseatshare
+github_username: seatshare
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+{% include head_assets.html %}
+
+</head>
+<body class="home">
+
+<div class="navbar navbar-inverse home-navbar hidden-xs">
+  <br />
+  <div class="container">
+      <div class="nav navbar-nav">
+        {% include navbar.html %}
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li><a title="Download" href="https://github.com/seatshare/seatshare-rails/releases/latest" class="btn btn-lg btn-success"><i class="fa fa-github"></i> Download</a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="home-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <img class="home-logo img-responsive" alt="SeatShare" title="SeatShare Logo" src="/assets/images/seatshare-inverted.svg" />
+            </div>
+            <div class="col-md-5">
+                <img class="home-screenshot img-responsive visible-md visible-lg" alt="Screenshots" title="Simulated Desktop Screenshot" src="/assets/images/screenshot-laptop.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+<br />
+<br />
+
+<div class="visible-xs">
+    <div class="well well-actions text-center">
+        <ul class="list-inline">
+            <li><a class="btn btn-secondary" href="https://app.myseatshare.com">Existing User?</a></li>
+            <li><a class="btn btn-primary btn-lg" href="https://github.com/seatshare/seatshare-rails/releases/latest">Download</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <img class="img-responsive visible-md visible-lg" alt="Screenshots" title="Simulated Mobile Screenshot" src="/assets/images/screenshot-iphone.png" />
+    </div>
+    <div class="col-md-9">
+        {{ content }}
+        
+        <div class="row">
+            <div class="col-md-offset-1 col-md-7">
+                <h3>Getting Started</h3>
+                <p class="lead">Everything in SeatShare is organized around the idea of a group. A group is a collection of users (like you!) that often purchase season tickets or receive them from a friend. Generally, a group consists of folks that you know and trust already.</p>
+            </div>
+            <div class="col-md-3">
+                 <img alt="Screenshot" title="Groups" class="img-thumbnail hidden-xs" src="/assets/images/screenshot-groups.png" />
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-7 col-md-push-4">
+                <h3>Calendar of Events</h3>
+                <p class="lead">When you join or create a group, you will see a list of ‘Events’ for that team or venue. In most cases, these are individual games in the season ticket package. These are pre-loaded in the system for each team and venue available.</p>
+            </div>
+            <div class="col-md-3 col-md-pull-6">
+                 <img alt="Screenshot" title="Events" class="img-thumbnail hidden-xs" src="/assets/images/screenshot-events.png" />
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-offset-1 col-md-7">
+                <h3>Need Tickets?</h3>
+                <p class="lead">If you want to attend an event, find an available ticket and use the dropdown menu to “Request” the ticket. This will send a message to the ticket holder saying that you want to attend that event. Ticketholders can then update the ticket’s assignee.</p>
+            </div>
+            <div class="col-md-3">
+                 <img alt="Screenshot" title="Tickets" class="img-thumbnail hidden-xs" src="/assets/images/screenshot-tickets.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <br />
+        <hr />
+        <br />
+    </div>
+</div>
+
+{% include footer.html %}
+
+
+</div>
+
+{% include footer_scripts.html %}
+
+</body>
+</html>
