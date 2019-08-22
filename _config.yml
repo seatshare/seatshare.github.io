@@ -12,7 +12,7 @@ exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAM
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
