@@ -8,6 +8,8 @@ url: "https://www.myseatshare.com"
 twitter_username: myseatshare
 github_username: seatshare
 
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAME, .buildpacks, circle.yml ]
+
 # Build settings
 markdown: kramdown
 gems:
